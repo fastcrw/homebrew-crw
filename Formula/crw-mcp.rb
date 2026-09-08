@@ -1,7 +1,7 @@
 class CrwMcp < Formula
   desc "MCP server for CRW — give AI agents web scraping tools"
   homepage "https://github.com/us/crw"
-  version "0.33.0"
+  version "0.34.0"
   license "AGPL-3.0"
 
   on_macos do

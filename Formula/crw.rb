@@ -1,28 +1,28 @@
 class Crw < Formula
   desc "Web scraper built for AI agents — scrape any URL to markdown in one command"
   homepage "https://github.com/us/crw"
-  version "0.35.0"
+  version "0.35.1"
   license "AGPL-3.0"
 
   on_macos do
     on_arm do
       url "https://github.com/us/crw/releases/download/v#{version}/crw-darwin-arm64.tar.gz"
-      sha256 "71c3a52700a95508321630493a7880549a7df9565b55cd26c8feb7ac3b0ac05f"
+      sha256 "0f7be68bb42f94984f7b4d825495af7a6f603d73a947a8e8924298c4bf96a272"
     end
     on_intel do
       url "https://github.com/us/crw/releases/download/v#{version}/crw-darwin-x64.tar.gz"
-      sha256 "3f8b2bb96bebd3eb578a7b087fe1bc39b6c9e5db2051fe068fa588b1784212a1"
+      sha256 "3f53bd39328696ce8e59741b3b461bc6f1829f4f73b9a9de7afcea3e81ad5205"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/us/crw/releases/download/v#{version}/crw-linux-arm64.tar.gz"
-      sha256 "0de8e4bab3914dd8786c1e4d8de7a350387650a1783251135c809ad7a07f5e2b"
+      sha256 "3aa64e6dbc710b6e4a26c6b778d74d926cfadb01d691d9a127b16c78a040351d"
     end
     on_intel do
       url "https://github.com/us/crw/releases/download/v#{version}/crw-linux-x64.tar.gz"
-      sha256 "51f47300a31cac214c00fe9093a52bfcc02cd994a974875e6cdf232f12ee03e1"
+      sha256 "7b18059cb9e5586ed3fdfcc86097942d10860f687e840a0df5f818182954a2a9"
     end
   end
 

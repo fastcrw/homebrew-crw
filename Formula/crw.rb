@@ -7,22 +7,22 @@ class Crw < Formula
   on_macos do
     on_arm do
       url "https://github.com/us/crw/releases/download/v#{version}/crw-darwin-arm64.tar.gz"
-      sha256 "2aea98281612519cec35b28a8bf855de67c479bed89c6e822d0d4b828b7528f7"
+      sha256 "4293f288a66515bc65acd3536323994fa8fb650408e662daa1d378e6209c3077"
     end
     on_intel do
       url "https://github.com/us/crw/releases/download/v#{version}/crw-darwin-x64.tar.gz"
-      sha256 "21e2bec1754cea2189e93daa987282420d8930734ba4fa527558fe325f723c71"
+      sha256 "b9d3261977287ef24fa1e0342ad4f14243338c315e538f3ec614ca7481face02"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/us/crw/releases/download/v#{version}/crw-linux-arm64.tar.gz"
-      sha256 "9218b126033bb47639f277ed3e2408abdd1a48ae2febfc366794627c64959840"
+      sha256 "945a9e6bbe850f865997e36c11ed467866eaa35e3cfd09d8ec7cb17f71bdc5d8"
     end
     on_intel do
       url "https://github.com/us/crw/releases/download/v#{version}/crw-linux-x64.tar.gz"
-      sha256 "03f0ff48e6a97a58cdd8b51407b9797e0ecb1a8e47a1b992bc91f3adff92c816"
+      sha256 "d72c6900b6355630cf0251f4e712a53f645655a43bc19998e7cfed0f2932bfb1"
     end
   end
 

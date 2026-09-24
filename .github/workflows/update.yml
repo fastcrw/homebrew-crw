@@ -36,7 +36,7 @@ jobs:
             for plat in darwin-arm64 darwin-x64 linux-arm64 linux-x64; do
               asset="${bin}-${plat}.tar.gz"
               echo "Downloading ${asset}..."
-              gh release download "v${VERSION}" --repo us/crw --pattern "${asset}" -D /tmp/assets --clobber
+              gh release download "v${VERSION}" --repo fastcrw/crw --pattern "${asset}" -D /tmp/assets --clobber
               sha=$(sha256sum "/tmp/assets/${asset}" | cut -d' ' -f1)
               echo "${bin}_${plat//-/_}_sha256=${sha}" >> "$GITHUB_ENV"
             done

@@ -1,7 +1,7 @@
 class CrwServer < Formula
   desc "Firecrawl-compatible web scraper API server"
   homepage "https://github.com/fastcrw/crw"
-  version "0.43.2"
+  version "0.44.0"
   license "AGPL-3.0"
 
   on_macos do
